@@ -9,7 +9,9 @@
             echo "<p> Hello World! </p>";
             $characterName = "John";
             $characterAge = 35;
-            echo "Name is $characterName";
+            echo "<ul>
+                <li> Name is $characterName </li>
+                </ul>";
             echo "Age is $characterAge";
          ?>
 
