@@ -1,12 +1,17 @@
 <!DOCTYPE html>
-<html>
-<body>
 
-<h1>My first PHP page</h1>
+<html lang="en">
+    <body>
 
-<?php
-echo "Hello World!";
-?>
+        <h1>My first PHP page</h1>
 
-</body>
+        <?php
+            echo "<p> Hello World! </p>";
+            $characterName = "John";
+            $characterAge = 35;
+            echo "Name is $characterName";
+            echo "Age is $characterAge";
+         ?>
+
+    </body>
 </html>
