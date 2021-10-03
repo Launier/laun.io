@@ -28,7 +28,6 @@
                     </tr>           
                    </table>";
          ?>
-         ?>
 
         <h2> Form </h2>
 
@@ -39,6 +38,17 @@
             </form>
             <br>
             Your name is <?php echo $_GET["name"] ?>
+
+        <h2> Calculator </h2>
+
+        <form action="test.php" method="get">
+            <input type="number" name="num1">
+            <br>
+            <input type="number" name="num2">
+            <input type="submit">
+        </form>
+
+        Answer: <?php echo $_GET["num1"] + $_GET["num2"] ?>
 
     </body>
 </html>
