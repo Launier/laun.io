@@ -6,13 +6,30 @@
         <h1>My first PHP page</h1>
 
         <?php
+
+        $characterName = "John";
+        $characterAge = 35;
             echo "<p> Hello World! </p>";
-            $characterName = "John";
-            $characterAge = 35;
-            echo "<ul>
-                <li> Name is $characterName </li>
-                </ul>";
-            echo "Age is $characterAge";
+
+            echo "<table>
+                    <tr>    
+                    <td>
+                    Name
+                    </td>
+                    <td>
+                    $characterName
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>
+                    Age
+                    </td>
+                    <td>
+                    $characterAge
+                    </td>
+                    </tr>           
+                   </table>";
+
          ?>
 
     </body>
