@@ -6,31 +6,22 @@
         <h1>My first PHP page</h1>
 
         <?php
-
-        $characterName = "John";
-        $characterAge = 35;
             echo "<p> Hello World! </p>";
-
-            echo "<table>
-                    <tr>    
-                    <td>
-                    Name
-                    </td>
-                    <td>
-                    $characterName
-                    </td>
-                    </tr>
-                    <tr>
-                    <td>
-                    Age
-                    </td>
-                    <td>
-                    $characterAge
-                    </td>
-                    </tr>           
-                   </table>";
-
+            $characterName = "John";
+            $characterAge = 35;
+            echo "<ul>
+                <li> Name is $characterName </li>
+                </ul>";
+            echo "Age is $characterAge";
          ?>
+
+        <h2> Form </h2>
+
+        <?php ?>
+            <form action="test.php" method="get">
+                Name: <input type="text" name="name">
+                <input type="submit"
+            </form>
 
     </body>
 </html>
