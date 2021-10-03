@@ -20,8 +20,10 @@
         <?php ?>
             <form action="test.php" method="get">
                 Name: <input type="text" name="name">
-                <input type="submit"
+                <input type="submit">
             </form>
+            <br>
+            Your name is <?php echo $_GET["name"] ?>
 
     </body>
 </html>
